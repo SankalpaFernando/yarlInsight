@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YarlInsight</title>
+  <link rel="stylesheet" href="output.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- SEO -->
+  <meta name="description" content="YarlInsight is a comprehensive two-day summer school dedicated to software engineering, innovation, and networking." />
+  <meta name="keywords" content="YarlInsight, IEEE, University of Jaffna, Software Engineering, Cloud Computing, Summer School, IEEE Student Branch, IEEE Young Professionals" />
+  <meta name="author" content="IEEE Student Branch, University of Jaffna" />
+  <meta property="og:title" content="YarlInsight" />
+  <meta property="og:description" content="YarlInsight is a comprehensive two-day summer school dedicated to software engineering, innovation, and networking." />
+</head>
+
+<body class="dark">
+
+  <div
+    class="relative overflow-hidden before:absolute before:top-0 before:start-1/2 dark:before:bg-[url('https://preline.co/assets/svg/examples-dark/polygon-bg-element.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
+    <header class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full text-sm py-4">
+      <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
+        <div class="flex items-center justify-between">
+          <a class="flex-none text-xl font-semibold" href="#">
+            <img src="./img/logo.png" class="h-32 w-32" />
+          </a>
+          <div class="sm:hidden">
+            <button type="button"
+              class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-white dark:hover:bg-white/10"
+              data-hs-collapse="#navbar-with-collapse" aria-controls="navbar-with-collapse"
+              aria-label="Toggle navigation">
+              <svg class="hs-collapse-open:hidden flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
+                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" x2="21" y1="6" y2="6" />
+                <line x1="3" x2="21" y1="12" y2="12" />
+                <line x1="3" x2="21" y1="18" y2="18" />
+              </svg>
+              <svg class="hs-collapse-open:block hidden flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg"
+                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div id="navbar-with-collapse"
+          class="hidden transition-all duration-[0.1ms] overflow-hidden basis-full grow sm:block">
+          <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
+            <a class="font-medium text-gray-600 hover:text-gray-400" href="index.html">Home</a>
+            <a class="font-medium text-yellow-500 hover:text-gray-400" href="programme.html">Programme</a>
+            <a class="font-medium text-gray-600 hover:text-gray-400" href="./registration.html">Registration</a>
+            <a class="font-medium text-gray-600 hover:text-gray-400" href="./committee.html">Committee</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:pt-8 pb-10">
+
+      <nav class="flex space-x-1 flex-col lg:flex-row justify-center items-center " aria-label="Tabs" role="tablist">
+        <button type="button"
+          class="hs-tab-active:bg-gradient-to-tl from-yellow-500 to-amber-500 hs-tab-active:text-white hs-tab-active:hover:text-white hs-tab-active:dark:text-white py-3 px-4 inline-flex items-center gap-x-2 w-max bg-transparent text-xl lg:text-3xl font-medium text-center text-gray-500 hover:text-yellow-600 rounded-lg disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-neutral-300 active"
+          id="pills-with-brand-color-item-1" data-hs-tab="#pills-with-brand-color-1"
+          aria-controls="pills-with-brand-color-1" role="tab">
+          24<sup>th</sup> August
+        </button>
+        <button type="button"
+          class="hs-tab-active:bg-gradient-to-tl from-yellow-500 to-amber-500 hs-tab-active:text-white hs-tab-active:hover:text-white hs-tab-active:dark:text-white py-3 px-4 inline-flex items-center w-max gap-x-2 bg-transparent text-xl lg:text-3xl font-medium text-center text-gray-500 hover:text-yellow-600 rounded-lg disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-neutral-300"
+          id="pills-with-brand-color-item-2" data-hs-tab="#pills-with-brand-color-2"
+          aria-controls="pills-with-brand-color-2" role="tab">
+          25<sup>th</sup> August
+        </button>
+
+      </nav>
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="mt-3" id="pills-with-brand-color-1" role="tabpanel" aria-labelledby="pills-with-brand-color-item-1">
+    <div>
+      <div class="w-full mx-auto">
+        <div class="container mx-auto">
+          <div class="grid grid-cols-1 lg:grid-cols-1 lg:w-1/2 mx-auto gap-4">
+            <div class="bg- p-4 shadow-md rounded-md">
+              <!-- Timeline -->
+              <div>
+                <!-- Heading -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    8.00 AM - 9.00 AM
+                  </h3>
+                </div>
+                <!-- End Heading -->
+
+                <!-- Item -->
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-7 flex justify-center items-center">
+                      <div
+                        class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Registration and Welcome Speech
+                    </h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      Kick-off the event with an introduction and welcome speech.
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    9.00 AM - 10.00 AM
+                  </h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-7 flex justify-center items-center">
+                      <div
+                        class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Tech Talk: The Future of Software Engineering </h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      Gain insights into emerging trends and future directions in software engineering from an industry
+                      expert.
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    10.00 AM - 11.30 AM
+                  </h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-9 flex justify-center items-center">
+                      <div
+                        class="size-9 flex justify-center items-center rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                        <img src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
+                          class="h-5 w-5" />
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      API Development using Node.js
+                    </h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      Dive into the fundamentals and advanced concepts of API development using Node.js, including
+                      hands-on examples and best practices.
+
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    11:30 AM - 11:45 AM </h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-7 flex justify-center items-center">
+                      <div
+                        class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Coffee Break </h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      Take a short break to relax and network with fellow attendees.
+
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    11:45 AM - 1:15 PM </h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-9 flex justify-center items-center">
+                      <div
+                        class="size-9 flex justify-center items-center rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                        <img src="https://img.icons8.com/ios-filled/50/FFFFFF/github.png" class="h-5 w-5" />
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Version Control with GitHub: Best Practices and Advanced Features </h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      Learn the essentials of version control using GitHub, covering both basic and advanced features to
+                      optimize your workflow.
+
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    1:15 PM - 2:15 PM </h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-7 flex justify-center items-center">
+                      <div
+                        class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Lunch Break </h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      Enjoy a lunch break, providing time to recharge and connect with other participants.
+
+
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    2:15 PM - 3:45 PM </h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-9 flex justify-center items-center">
+                      <div
+                        class="size-9 flex justify-center items-center rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                        <img src="https://swimburger.net/media/ppnn3pcl/azure.png" class="h-5 w-5" />
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Mastering Azure: An Overview and Key Services</h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      Explore Microsoft Azure's key services and learn how to leverage them for building and deploying
+                      applications in the cloud.
+
+
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    3:45 PM - 4:00 PM</h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-7 flex justify-center items-center">
+                      <div
+                        class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Coffee Break</h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      A brief intermission for refreshments and informal discussions.
+
+
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    4:00 PM - 5:30 PM</h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-9 flex justify-center items-center">
+                      <div
+                        class="size-9 flex justify-center items-center rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                        <img src="https://swimburger.net/media/ppnn3pcl/azure.png" class="h-5 w-5" />
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Hands-On Lab: Deploying Applications on Azure</h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      Participate in a hands-on lab session to practice deploying applications on Azure, guided by
+                      experienced instructors.
+
+
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+
+
+              </div>
+              <!-- End Timeline -->
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    
+  </div>
+
+
+  <div class="hidden mt-3" id="pills-with-brand-color-2" role="tabpanel" aria-labelledby="pills-with-brand-color-item-2">
+    <div>
+      <div class="w-full mx-auto">
+        <div class="container mx-auto">
+          <div class="grid grid-cols-1 lg:grid-cols-1 lg:w-1/2 mx-auto gap-4">
+            <div class="bg- p-4 shadow-md rounded-md">
+              <!-- Timeline -->
+              <div>
+                <!-- Heading -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    8:00 AM - 8:30 AM </h3>
+                </div>
+                <!-- End Heading -->
+
+                <!-- Item -->
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-7 flex justify-center items-center">
+                      <div
+                        class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Recap and Q&A </h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      Review key takeaways from Day 1 and address any questions from participants.
+
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    8:30 AM - 10:00 AM
+                  </h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-9 flex justify-center items-center">
+                      <div
+                        class="size-9 flex justify-center items-center rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                        <img src="https://seeklogo.com/images/F/firebase-logo-402F407EE0-seeklogo.com.png"
+                          class="h-5 w-5" />
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Introduction to Serverless Architecture using Firebase </h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      Understand the principles of serverless architecture and how to implement it using Firebase, with
+                      practical examples.
+
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    10:00 AM - 10:15 AM
+                  </h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-7 flex justify-center items-center">
+                      <div
+                        class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Coffee Break </h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      A short break to refresh and prepare for the upcoming sessions.
+
+
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    10:15 AM - 11:45 AM
+                  </h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-9 flex justify-center items-center">
+                      <div
+                        class="size-9 flex justify-center items-center rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                        <img src="https://seeklogo.com/images/F/firebase-logo-402F407EE0-seeklogo.com.png"
+                          class="h-5 w-5" />
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Workshop: Practical Applications of Firebase </h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      Engage in a workshop to apply Firebase in real-world scenarios, enhancing your practical skills.
+
+
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    11:45 AM - 12:45 PM
+                  </h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-7 flex justify-center items-center">
+                      <div
+                        class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Lunch Break </h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      Pause for a lunch break, allowing time for rest and networking.
+
+
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    12:45 PM - 2:15 PM
+                  </h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-9 flex justify-center items-center">
+                      <div
+                        class="size-9 flex justify-center items-center rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                        <img src="https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png"
+                          class="h-5 w-5" />
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- End Icon -->
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      API Testing with Postman: A Practical Approach </h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      Discover how to effectively test APIs using Postman, with a focus on practical techniques and
+                      workflows.
+
+
+
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    2:15 PM - 2:30 PM
+
+                  </h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-7 flex justify-center items-center">
+                      <div
+                        class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Coffee Break
+                    </h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      A brief pause for refreshments and informal interactions.
+
+
+
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    2:30 PM - 4:00 PM
+                  </h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-7 flex justify-center items-center">
+                      <div
+                        class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Career Guidance Session: Navigating the Tech Industry
+                    </h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      Receive valuable career advice and guidance on navigating the tech industry, from resume building
+                      to job search strategies.
+
+
+
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="ps-2 my-2 first:mt-0">
+                  <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+                    4:00 PM - 5:00 PM
+                  </h3>
+                </div>
+                <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                  <a class="absolute inset-0 z-[1]' href=" #"></a>
+
+                  <!-- Icon -->
+                  <div
+                    class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
+                    <div class="relative z-10 size-7 flex justify-center items-center">
+                      <div
+                        class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Icon -->
+
+                  <!-- Right Content -->
+                  <div class="grow p-2 pb-8">
+                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                      Closing Remarks and Networking Session </h3>
+                    <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                      Conclude the event with closing remarks and an opportunity to network with speakers, instructors,
+                      and fellow participants.
+                    </p>
+                    
+                  </div>
+                  <!-- End Right Content -->
+                </div>
+                <!-- End Item -->
+
+
+              </div>
+              <!-- End Timeline -->
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+</body>
+<script src="../node_modules/preline/dist/preline.js"></script>
+<script>
+
+</script>
+
+</html>

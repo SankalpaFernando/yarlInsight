@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YarlInsight</title>
+  <link rel="stylesheet" href="output.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- SEO -->
+  <meta name="description" content="YarlInsight is a comprehensive two-day summer school dedicated to software engineering, innovation, and networking." />
+  <meta name="keywords" content="YarlInsight, IEEE, University of Jaffna, Software Engineering, Cloud Computing, Summer School, IEEE Student Branch, IEEE Young Professionals" />
+  <meta name="author" content="IEEE Student Branch, University of Jaffna" />
+  <meta property="og:title" content="YarlInsight" />
+  <meta property="og:description" content="YarlInsight is a comprehensive two-day summer school dedicated to software engineering, innovation, and networking." />
+</head>
+
+<body class="dark">
+
+  <!-- Hero -->
+  <div
+    class="relative overflow-hidden before:absolute before:top-0 before:start-1/2 dark:before:bg-[url('https://preline.co/assets/svg/examples-dark/polygon-bg-element.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
+    <header class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full text-sm py-4">
+      <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
+        <div class="flex items-center justify-between">
+          <a class="flex-none text-xl font-semibold" href="#">
+            <img src="./img/logo.png" class="h-32 w-32" />
+          </a>
+          <div class="sm:hidden">
+            <button type="button"
+              class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-x-2 rounded-lg border  shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none bg-transparent border-neutral-700 text-white hover:bg-white/10"
+              data-hs-collapse="#navbar-with-collapse" aria-controls="navbar-with-collapse"
+              aria-label="Toggle navigation">
+              <svg class="hs-collapse-open:hidden flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
+                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" x2="21" y1="6" y2="6" />
+                <line x1="3" x2="21" y1="12" y2="12" />
+                <line x1="3" x2="21" y1="18" y2="18" />
+              </svg>
+              <svg class="hs-collapse-open:block hidden flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg"
+                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div id="navbar-with-collapse"
+          class="hidden transition-all duration-[0.1ms] overflow-hidden basis-full grow sm:block">
+          <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
+            <a class="font-medium text-yellow-500 hover:text-gray-400" href="index.html">Home</a>
+            <a class="font-medium text-gray-600 hover:text-gray-400" href="programme.html">Programme</a>
+            <a class="font-medium text-gray-600 hover:text-gray-400" href="./registration.html">Registration</a>
+            <a class="font-medium text-gray-600 hover:text-gray-400" href="./committee.html">Committee</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 lg:pt-24 pb-10">
+      <!-- Announcement Banner -->
+      <div class="flex justify-center py-4 md:py-0">
+        <a class="inline-flex items-center gap-x-2  border  text-xs lg:text-sm  p-1 ps-3 rounded-full transition  bg-neutral-800 border-neutral-700 hover:border-neutral-600 text-neutral-200"
+          href="#">
+          Code Your Way Through Summer <span
+            class="py-1.5 px-2.5 inline-flex justify-center items-center gap-x-2 rounded-full bg-gray-200 font-semibold text-sm text-gray-600 bg-neutral-700 text-neutral-400">
+            <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="m9 18 6-6-6-6" />
+            </svg>
+          </span>
+        </a>
+      </div>
+      <!-- End Announcement Banner -->
+
+      <!-- Title -->
+      <div class="mt-10 md:mt-5 max-w-2xl text-center mx-auto">
+        <h1 class="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200">
+          Let's Build
+          <span class="bg-clip-text bg-gradient-to-tl from-amber-600 to-yellow-600 text-transparent">Together</span>
+        </h1>
+      </div>
+      <!-- End Title -->
+
+      <div class="mt-5 max-w-3xl text-center mx-auto">
+        <p class="text-lg text-gray-600 dark:text-neutral-400">
+          Join us for YarlInsight, a comprehensive two-day summer school dedicated to software engineering, innovation,
+          and networking.
+        </p>
+      </div>
+
+      <!-- Buttons -->
+      <div class="mt-8 gap-3 flex justify-center">
+        <a class="inline-flex justify-center items-center gap-x-3 text-center bg-amber-500 hover:bg-yellow-500 border border-transparent text-white text-sm font-medium rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600 py-3 px-4 dark:focus:ring-offset-gray-800"
+          href="./registration.html">
+          Apply Now
+          <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="m9 18 6-6-6-6" />
+          </svg>
+        </a>
+        <button type="button"
+          class="relative md:inline-flex hidden group p-2 ps-3 items-center gap-x-2 text-sm font-mono rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800">
+          $ npm init yarl-insight
+          <span
+            class="flex justify-center items-center bg-gray-200 rounded-md size-7 dark:bg-neutral-700 dark:text-neutral-400">
+            <svg class="flex-shrink-0 size-4 group-hover:rotate-6 transition" xmlns="http://www.w3.org/2000/svg"
+              width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+              <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+            </svg>
+          </span>
+        </button>
+      </div>
+      <!-- End Buttons -->
+
+      <div class="mt-5 md:flex hidden justify-center items-center gap-x-1 sm:gap-x-3">
+        <span class="text-sm text-gray-600 dark:text-neutral-400">Deployed at:</span>
+        <span class="text-sm font-bold text-gray-900 dark:text-white">University of Jaffna</span>
+        <svg class="size-5 text-gray-300 dark:text-neutral-600" width="16" height="16" viewBox="0 0 16 16" fill="none"
+          xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M6 13L10 3" stroke="currentColor" stroke-linecap="round" />
+        </svg>
+        <a class="inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 hover:underline font-medium"
+          href="https://www.google.com/maps/dir//Kokuvil+East/@9.6857709,79.93866,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3afe54125cafe551:0x61d1a49bcd146dfe!2m2!1d80.0210619!2d9.6857807?entry=ttu">
+          Location
+          <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="m9 18 6-6-6-6" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+  <!-- End Hero -->
+  <!-- Clients -->
+  <div class="w-[95%] md:max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <!-- Title -->
+    <div class="sm:w-1/2 xl:w-1/3 mx-auto text-center mb-6">
+      <h2 class="text-xl font-semibold md:text-2xl md:leading-tight text-gray-800 dark:text-neutral-200">
+        Where You Learn Everything Essential for a Successful Tech Career
+      </h2>
+    </div>
+    <!-- End Title -->
+
+    <!-- Grid -->
+    <div class="my-8 md:my-16 grid grid-cols-5 md:grid-cols-3 sm:flex sm:justify-center gap-6 sm:gap-x-12 lg:gap-x-20">
+      <a class="flex-shrink-0 transition hover:-translate-y-1" href="#">
+        <img src="https://seeklogo.com/images/F/firebase-logo-402F407EE0-seeklogo.com.png" class="h-10 w-auto" />
+      </a>
+      <a class="flex-shrink-0 transition hover:-translate-y-1" href="#">
+        <img src="https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png" class="h-10 w-10" />
+      </a>
+      <a class="flex-shrink-0 transition hover:-translate-y-1" href="#">
+        <img src="https://swimburger.net/media/ppnn3pcl/azure.png" class="h-10 w-10" />
+      </a>
+      <a class="flex-shrink-0 transition hover:-translate-y-1" href="#">
+        <img src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" class="h-auto w-10" />
+      </a>
+      <a class="flex-shrink-0 transition hover:-translate-y-1" href="#">
+        <img src="https://img.icons8.com/ios-filled/50/FFFFFF/github.png" class="h-10 w-10" />
+      </a>
+    </div>
+    <!-- End Grid -->
+    <div class="w-full md:w-[75%] mx-auto bg-[] py-5 md:px-5 rounded-xl">
+      <p class="text-center text-neutral-200 text-sm mt-5 md:mt-0 md:text-lg font-extralight">
+        We are excited to introduce YarlInsight, an innovative <span class="text--400 ">Two-day Summer
+          School</span> dedicated to advancing skills in <span class="text-amber-500 font-semibold">Software
+          Engineering</span> and <span class="text-amber-500 font-semibold">Cloud
+          Computing</span>. Hosted by the IEEE Student Branch at the University of
+        Jaffna, in collaboration with <span class="text--400 font-">IEEE Young Professionals</span>, YarlInsight
+        aims to bridge the gap between academic learning and industry demands
+        by offering an immersive educational experience.
+      </p>
+    </div>
+  </div>
+  <!-- End Clients -->
+  <!-- Icon Blocks -->
+  <div class="w-[95%] md:max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div class="max-w-4xl mx-auto">
+      <!-- Grid -->
+      <div class="grid md:grid-cols-2 gap-6 lg:gap-12">
+        <div class="space-y-6 lg:space-y-10">
+          <!-- Icon Block -->
+          <div class="flex">
+            <svg class="flex-shrink-0 mt-2 size-8 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg"
+              width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect width="18" height="10" x="3" y="11" rx="2" />
+              <circle cx="12" cy="5" r="2" />
+              <path d="M12 7v4" />
+              <line x1="8" x2="8" y1="16" y2="16" />
+              <line x1="16" x2="16" y1="16" y2="16" />
+            </svg>
+            <div class="ms-5 sm:ms-8">
+              <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
+                Expert-Led Sessions
+              </h3>
+              <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                Learn from industry experts in various fields of software engineering and cloud computing.
+              </p>
+            </div>
+          </div>
+          <!-- End Icon Block -->
+
+          <!-- Icon Block -->
+          <div class="flex">
+            <svg class="flex-shrink-0 mt-2 size-8 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg"
+              width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="m7.5 4.27 9 5.15" />
+              <path
+                d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" />
+              <path d="m3.3 7 8.7 5 8.7-5" />
+              <path d="M12 22V12" />
+            </svg>
+            <div class="ms-5 sm:ms-8">
+              <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
+                Hands-On Learning
+              </h3>
+              <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                Engage in practical workshops to apply what you learn in real-time projects.
+              </p>
+            </div>
+          </div>
+          <!-- End Icon Block -->
+
+          <!-- Icon Block -->
+          <div class="flex">
+            <svg class="flex-shrink-0 mt-2 size-8 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg"
+              width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+            </svg>
+            <div class="ms-5 sm:ms-8">
+              <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
+                Comprehensive Coverage
+              </h3>
+              <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                From Node.js to Azure, gain knowledge across a broad spectrum of software engineering topics.
+              </p>
+            </div>
+          </div>
+          <!-- End Icon Block -->
+        </div>
+        <!-- End Col -->
+
+        <div class="space-y-6 lg:space-y-10">
+          <!-- Icon Block -->
+          <div class="flex">
+            <svg class="flex-shrink-0 mt-2 size-8 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg"
+              width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
+              <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
+              <path d="M4 22h16" />
+              <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
+              <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
+              <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+            </svg>
+            <div class="ms-5 sm:ms-8">
+              <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
+                Networking Opportunities
+              </h3>
+              <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                Connect with peers and professionals to expand your professional network.
+              </p>
+            </div>
+          </div>
+          <!-- End Icon Block -->
+
+          <!-- Icon Block -->
+          <div class="flex">
+            <svg class="flex-shrink-0 mt-2 size-8 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg"
+              width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+            <div class="ms-5 sm:ms-8">
+              <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
+                Career Guidance
+              </h3>
+              <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                Receive expert advice and guidance for advancing your career in technology.
+              </p>
+            </div>
+          </div>
+          <!-- End Icon Block -->
+
+          <!-- Icon Block -->
+          <div class="flex">
+            <svg class="flex-shrink-0 mt-2 size-8 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg"
+              width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7 10v12" />
+              <path
+                d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z" />
+            </svg>
+            <div class="ms-5 sm:ms-8">
+              <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
+                Inclusive Environment
+              </h3>
+              <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                YarlInsight welcomes students, undergraduates, and professionals from across Sri Lanka, creating a
+                vibrant and inclusive learning environment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Approach -->
+  <div class="">
+    <!-- Approach -->
+    <div class="w-[95%] md:max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
+      <!-- Title -->
+      <div class="max-w-3xl mb-10 lg:mb-14">
+        <h2 class="text-white font-semibold text-2xl md:text-5xl md:leading-tight md:text-left text-center">Timeline of
+          Activities</h2>
+        <p class="mt-6 text-neutral-400 md:text-left text-center">Follow our event timeline to stay informed about
+          significant dates and deadlines. Ensure you are prepared for every step of YarlInsight.</p>
+      </div>
+      <!-- End Title -->
+
+      <!-- Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 ">
+        <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
+          <img class="w-full object-cover rounded-xl"
+            src="https://images.unsplash.com/photo-1587614203976-365c74645e83?q=80&w=480&h=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Image Description">
+        </div>
+        <!-- End Col -->
+
+        <div>
+          <!-- Heading -->
+          <div class="ps-2 my-2 first:mt-0">
+            <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+              20 Jul, 2024
+            </h3>
+          </div>
+          <!-- End Heading -->
+
+          <!-- Item -->
+          <div class="flex gap-x-3">
+            <!-- Icon -->
+            <div
+              class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+              <div class="relative z-10 size-7 flex justify-center items-center">
+                <div class="size-2 rounded-full bg-yellow-500 dark:bg-yellow-500"></div>
+              </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8">
+              <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                Call for Participation
+              </h3>
+              <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                We are excited to announce the call for participation for the YarlInsight event. Submit your
+                applications by 25th July.
+              </p>
+              <a class="mt-5 py-3 px-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-amber-500 text-white hover:bg-amber-500 hover:opacity-90 disabled:opacity-50 disabled:pointer-events-none"
+                href="./registration.html">
+                Apply Now
+                <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="m9 18 6-6-6-6" />
+          </svg>
+              </a>
+            </div>
+            <!-- End Right Content -->
+          </div>
+          <!-- End Item -->
+
+          <!-- Heading -->
+          <div class="ps-2 my-2 first:mt-0">
+            <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+              25 Jul, 2024
+            </h3>
+          </div>
+          <!-- End Heading -->
+
+          <!-- Item -->
+          <div class="flex gap-x-3">
+            <!-- Icon -->
+            <div
+              class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+              <div class="relative z-10 size-7 flex justify-center items-center">
+                <div class="size-2 rounded-full bg-gray-400 dark:bg-neutral-600"></div>
+              </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8">
+              <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                Application Deadline
+              </h3>
+              <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                Last day to submit your applications for the YarlInsight event.
+              </p>
+            </div>
+            <!-- End Right Content -->
+          </div>
+          <!-- End Item -->
+
+          <!-- Heading -->
+          <div class="ps-2 my-2 first:mt-0">
+            <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+              27 Jul, 2024
+            </h3>
+          </div>
+          <!-- End Heading -->
+
+          <!-- Item -->
+          <div class="flex gap-x-3">
+            <!-- Icon -->
+            <div
+              class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+              <div class="relative z-10 size-7 flex justify-center items-center">
+                <div class="size-2 rounded-full bg-gray-400 dark:bg-neutral-600"></div>
+              </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8">
+              <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                Application Accepted Notification
+              </h3>
+              <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                We will notify the applicants if their participation is accepted.
+              </p>
+            </div>
+            <!-- End Right Content -->
+          </div>
+          <!-- End Item -->
+
+          <!-- Heading -->
+          <div class="ps-2 my-2 first:mt-0">
+            <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+              30 Jul, 2024
+            </h3>
+          </div>
+          <!-- End Heading -->
+
+          <!-- Item -->
+          <div class="flex gap-x-3">
+            <!-- Icon -->
+            <div
+              class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+              <div class="relative z-10 size-7 flex justify-center items-center">
+                <div class="size-2 rounded-full bg-gray-400 dark:bg-neutral-600"></div>
+              </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8">
+              <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                Confirm Participation
+              </h3>
+              <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                Confirm your participation by paying the registration fee to secure your spot at YarlInsight.
+              </p>
+            </div>
+            <!-- End Right Content -->
+          </div>
+          <!-- End Item -->
+
+          <!-- Heading -->
+          <div class="ps-2 my-2 first:mt-0">
+            <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
+              24 Aug, 2024
+            </h3>
+          </div>
+          <!-- End Heading -->
+
+          <!-- Item -->
+          <div class="flex gap-x-3">
+            <!-- Icon -->
+            <div
+              class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+              <div class="relative z-10 size-7 flex justify-center items-center">
+                <div class="size-2 rounded-full bg-gray-400 dark:bg-neutral-600"></div>
+              </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8">
+              <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                Event Day
+              </h3>
+              <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                YarlInsight will cover topics such as API development using Node.js, version control with GitHub, and
+                mastering Azure. Join us for an immersive learning experience.
+
+              </p>
+            </div>
+            <!-- End Right Content -->
+          </div>
+          <!-- End Item -->
+
+
+        </div>
+      </div>
+      <!-- End Grid -->
+    </div>
+  </div>
+  <!-- End Approach -->
+
+  <!-- Pricing -->
+  <div class="w-[95%] md:max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <!-- Title -->
+    <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+      <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Registration Fees
+      </h2>
+      <p class="mt-4 text-gray-600 dark:text-neutral-400">
+        Explore our tailored packages to ensure you get the best experience at YarlInsight, whether you're a local
+        student or coming from afar.
+      </p>
+    </div>
+    <!-- End Title -->
+
+
+
+    <!-- Grid -->
+    <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:items-center">
+      <!-- Placeholder for spacing -->
+      <div class=""></div>
+
+      <!-- Card for University of Jaffna Students -->
+      <div class="flex flex-col border-2 border-yellow-600 text-center shadow-xl rounded-xl p-8 dark:yellow-blue-700">
+        <p class="mb-3">
+          <span
+            class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-lg text-xs uppercase font-semibold bg-blue-100 text-blue-800 dark:bg-amber-500 dark:text-white">Exclusive
+            Offer</span>
+        </p>
+        <h4 class="font-medium text-lg text-gray-800 dark:text-neutral-200">
+          IEEE Student Members
+        </h4>
+        <span class="mt-5 font-bold text-5xl text-gray-800 dark:text-neutral-200">
+          <span class="font-bold text-2xl -me-2">LKR</span>
+          1500
+        </span>
+        <p class="mt-2 text-sm text-gray-500 dark:text-neutral-500">Exclusive rate for IEEE Student Members.</p>
+        <ul class="mt-7 space-y-2.5 text-sm">
+          <li class="flex space-x-2">
+            <svg class="flex-shrink-0 mt-0.5 size-4 text-blue-600 dark:text-yellow-400"
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            <span class="text-gray-800 dark:text-neutral-400">
+              Access to all sessions
+            </span>
+          </li>
+          <li class="flex space-x-2">
+            <svg class="flex-shrink-0 mt-0.5 size-4 text-blue-600 dark:text-yellow-400"
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            <span class="text-gray-800 dark:text-neutral-400">
+              Event Materials ( Tshirt etc.)
+            </span>
+          </li>
+          <li class="flex space-x-2">
+            <svg class="flex-shrink-0 mt-0.5 size-4 text-blue-600 dark:text-yellow-400"
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            <span class="text-gray-800 dark:text-neutral-400">
+              Lunch & Refreshments
+            </span>
+          </li>
+          <li class="flex space-x-2">
+            <svg class="flex-shrink-0 mt-0.5 size-4 text-blue-600 dark:text-yellow-400"
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            <span class="text-gray-800 dark:text-neutral-400">
+              Certificate of participation
+            </span>
+          </li>
+        </ul>
+        <a class="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-amber-500 text-white hover:bg-amber-500 hover:opacity-90 disabled:opacity-50 disabled:pointer-events-none"
+          href="./registration.html">
+          Apply Now
+        </a>
+      </div>
+      <!-- End Card -->
+
+      <!-- Card for Other Universities -->
+      <div class="flex flex-col border border-gray-200 text-center rounded-xl p-8 dark:border-neutral-800">
+        <h4 class="font-medium text-lg text-gray-800 dark:text-neutral-200">Other Students</h4>
+        <span class="mt-5 font-bold text-5xl text-gray-800 dark:text-neutral-200">
+          <span class="font-bold text-2xl -me-2">LKR</span>
+          2000
+        </span>
+        <p class="mt-2 text-sm text-gray-500 dark:text-neutral-500">Standard rate for students from any University</p>
+        <ul class="mt-7 space-y-2.5 text-sm">
+          <li class="flex space-x-2">
+            <svg class="flex-shrink-0 mt-0.5 size-4 text-blue-600 dark:text-yellow-400"
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            <span class="text-gray-800 dark:text-neutral-400">
+              Access to all sessions
+            </span>
+          </li>
+          <li class="flex space-x-2">
+            <svg class="flex-shrink-0 mt-0.5 size-4 text-blue-600 dark:text-yellow-400"
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            <span class="text-gray-800 dark:text-neutral-400">
+              Event Materials ( Tshirt etc.)
+            </span>
+          </li>
+          <li class="flex space-x-2">
+            <svg class="flex-shrink-0 mt-0.5 size-4 text-blue-600 dark:text-yellow-400"
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            <span class="text-gray-800 dark:text-neutral-400">
+              Lunch & Refreshments
+            </span>
+          </li>
+          <li class="flex space-x-2">
+            <svg class="flex-shrink-0 mt-0.5 size-4 text-blue-600 dark:text-yellow-400"
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            <span class="text-gray-800 dark:text-neutral-400">
+              Certificate of participation
+            </span>
+          </li>
+        </ul>
+        <a class="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-gray-200 text-gray-500 hover:border-amber-500 hover:text-amber-500 disabled:opacity-50 disabled:pointer-events-none dark:border-neutral-700 dark:text-neutral-400 dark:hover:text-amber-500 dark:hover:border-amber-500"
+          href="./registration.html">
+          Apply Now
+        </a>
+      </div>
+      <!-- End Card -->
+    </div>
+
+    <!-- End Card -->
+
+
+  </div>
+  <!-- End Grid -->
+  </div>
+  <!-- End Pricing -->
+   <!-- Clients -->
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  <!-- Title -->
+  <div class="w-2/3 sm:w-1/2 lg:w-1/3 mx-auto text-center mb-6">
+    <h2 class="text-gray-600 dark:text-neutral-400">
+      Building Tomorrow: In Partnership with    </h2>
+  </div>
+  <!-- End Title -->
+
+  <div class="flex justify-center gap-x-6 sm:gap-x-12 lg:gap-x-24 lg:flex-row items-center gap-3 flex-col">
+   <img src="./img/IEEEYoungProfessionalsLogoTM_White_Horiz.png" class="lg:w-auto lg:h-14 h-10" />
+   <img src="./img/IEEE SB Logo white.png" class="lg:w-auto lg:h-16 h-8 w-14" />
+
+  </div>
+</div>
+<!-- End Clients -->
+</body>
+<script src="../node_modules/preline/dist/preline.js"></script>
+
+</html>
